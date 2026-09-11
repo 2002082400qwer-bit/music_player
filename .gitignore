@@ -1,0 +1,11 @@
+# ESP-IDF 构建产物与组件管理器下载目录，都能由 idf.py build 重新生成
+/build/
+/managed_components/
+
+# 构建日志
+*.log
+
+# 其他
+sdkconfig.old
+.DS_Store
+Thumbs.db

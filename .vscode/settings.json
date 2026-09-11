@@ -1,0 +1,17 @@
+{
+    "idf.currentSetup": "D:\\esp\\v6.1\\esp-idf",
+    "C_Cpp.default.compileCommands": "${workspaceFolder}/build/compile_commands.json",
+    "C_Cpp.default.intelliSenseMode": "windows-gcc-x64",
+    "C_Cpp.default.cStandard": "gnu23",
+    "C_Cpp.default.cppStandard": "gnu++23",
+    "files.associations": {
+        "*.h": "c"
+    },
+    "search.exclude": {
+        "**/build": true,
+        "**/managed_components": true
+    },
+    "idf.flashType": "UART",
+    "idf.portWin": "COM3",
+    "git.ignoreLimitWarning": true
+}

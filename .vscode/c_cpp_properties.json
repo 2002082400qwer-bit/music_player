@@ -1,0 +1,33 @@
+{
+    "configurations": [
+        {
+            "name": "ESP-IDF-ESP32S3",
+            "compilerPath": "D:/Espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc.exe",
+            "compileCommands": "${workspaceFolder}/build/compile_commands.json",
+            "intelliSenseMode": "windows-gcc-x64",
+            "cStandard": "gnu23",
+            "cppStandard": "gnu++23",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "D:/esp/v6.1/esp-idf/components/**"
+            ],
+            "defines": [
+                "ESP_PLATFORM",
+                "CONFIG_IDF_TARGET_ESP32S3=1"
+            ],
+            "forcedInclude": [
+                "${workspaceFolder}/build/config/sdkconfig.h"
+            ],
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/main",
+                    "${workspaceFolder}/components",
+                    "${workspaceFolder}/managed_components",
+                    "D:/esp/v6.1/esp-idf/components"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
+        }
+    ],
+    "version": 4
+}

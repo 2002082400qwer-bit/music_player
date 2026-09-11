@@ -1,0 +1,19 @@
+dependencies:
+  # 乐鑫官方板级管理组件：统一描述并初始化板上外设（SD 卡、音频 DAC、LCD、触摸等）
+  espressif/esp_board_manager: "*"
+  # 音频简单播放器：异步解码音频并把 PCM 写入 codec 输出
+  espressif/esp_audio_simple_player:
+    version: "^1.0"
+  # 音频解封装组件：解析 mp3 / aac / wav 等容器格式
+  espressif/esp_extractor:
+    version: "^1.0"
+  # LVGL 适配层：把显示与触摸接入 LVGL
+  espressif/esp_lvgl_adapter:
+    version: "^0.5"
+  # 资源分区映射组件：用于把 font.ttf 等资源打包并直接映射访问
+  espressif/esp_mmap_assets:
+    version: "^2.0"
+  # 播放列表组件：原示例用 override_path 指向 ESP-ADF 仓库内的 components/esp_playlist，
+  # 迁出 ADF 仓库后该相对路径失效，这里改为由 IDF 组件管理器获取同版本组件
+  espressif/esp_playlist:
+    version: "^0.5"
