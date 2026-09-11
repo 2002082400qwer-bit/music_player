@@ -12,7 +12,6 @@
 #include "esp_log.h"
 #include "hello_wav_provision.h"
 #include "music_player_board.h"
-#include "music_player_buttons.h"
 #include "music_player_display.h"
 #include "music_player_playback.h"
 #include "music_player_playlist.h"
@@ -164,7 +163,6 @@ void app_stop(void)
     }
     s_started = false;
 
-    music_player_buttons_deinit();
     music_player_playback_deinit();
     music_player_playlist_deinit();
     music_player_ui_deinit();
